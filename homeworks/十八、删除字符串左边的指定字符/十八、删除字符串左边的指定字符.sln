@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "十八、删除字符串左边的指定字符", "十八、删除字符串左边的指定字符.vcxproj", "{ABC60524-2373-4B68-9CE0-127A2115D54A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ABC60524-2373-4B68-9CE0-127A2115D54A}.Debug|x64.ActiveCfg = Debug|x64
+		{ABC60524-2373-4B68-9CE0-127A2115D54A}.Debug|x64.Build.0 = Debug|x64
+		{ABC60524-2373-4B68-9CE0-127A2115D54A}.Debug|x86.ActiveCfg = Debug|Win32
+		{ABC60524-2373-4B68-9CE0-127A2115D54A}.Debug|x86.Build.0 = Debug|Win32
+		{ABC60524-2373-4B68-9CE0-127A2115D54A}.Release|x64.ActiveCfg = Release|x64
+		{ABC60524-2373-4B68-9CE0-127A2115D54A}.Release|x64.Build.0 = Release|x64
+		{ABC60524-2373-4B68-9CE0-127A2115D54A}.Release|x86.ActiveCfg = Release|Win32
+		{ABC60524-2373-4B68-9CE0-127A2115D54A}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E31776AF-08F9-4436-BDDC-D93E3B4C59CA}
+	EndGlobalSection
+EndGlobal

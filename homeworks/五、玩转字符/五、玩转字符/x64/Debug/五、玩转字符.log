@@ -1,0 +1,10 @@
+﻿  ConsoleApplication1.cpp
+D:\a我的文件\C++学习\课后作业\五、玩转字符\ConsoleApplication1.cpp(26,5): warning C4273: “tolower”: dll 链接不一致
+  D:\Windows Kits\10\Include\10.0.22621.0\ucrt\ctype.h(66,56):
+  参见“tolower”的前一个定义
+  
+D:\a我的文件\C++学习\课后作业\五、玩转字符\ConsoleApplication1.cpp(28,5): warning C4273: “toupper”: dll 链接不一致
+  D:\Windows Kits\10\Include\10.0.22621.0\ucrt\ctype.h(63,56):
+  参见“toupper”的前一个定义
+  
+  五、玩转字符.vcxproj -> D:\a我的文件\C++学习\课后作业\五、玩转字符\x64\Debug\五、玩转字符.exe

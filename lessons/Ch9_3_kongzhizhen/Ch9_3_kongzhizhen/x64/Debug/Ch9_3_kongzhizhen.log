@@ -1,0 +1,4 @@
+﻿  Ch9_3_kongzhizhen.cpp
+D:\a我的文件\C++学习\Ch9_3_kongzhizhen\Ch9_3_kongzhizhen\Ch9_3_kongzhizhen.cpp(32,10): warning C4101: “p1”: 未引用的局部变量
+D:\a我的文件\C++学习\Ch9_3_kongzhizhen\Ch9_3_kongzhizhen\Ch9_3_kongzhizhen.cpp(8,1): warning C4172: 返回局部变量或临时变量的地址: a
+  Ch9_3_kongzhizhen.vcxproj -> D:\a我的文件\C++学习\Ch9_3_kongzhizhen\x64\Debug\Ch9_3_kongzhizhen.exe

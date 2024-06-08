@@ -1,0 +1,4 @@
+﻿  ConsoleApplication1.cpp
+D:\a我的文件\C++学习\课后作业\二十二、解析xml字符串\ConsoleApplication1.cpp(82,18): warning C4018: “<”: 有符号/无符号不匹配
+D:\a我的文件\C++学习\课后作业\二十二、解析xml字符串\ConsoleApplication1.cpp(158,21): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  二十二、解析xml字符串.vcxproj -> D:\a我的文件\C++学习\课后作业\二十二、解析xml字符串\x64\Debug\二十二、解析xml字符串.exe

@@ -1,0 +1,6 @@
+﻿  ConsoleApplication1.cpp
+D:\a我的文件\C++学习\课后作业\5.6 希尔排序\ConsoleApplication1.cpp(28,15): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+D:\a我的文件\C++学习\课后作业\5.6 希尔排序\ConsoleApplication1.cpp(115,41): warning C4018: “<”: 有符号/无符号不匹配
+D:\a我的文件\C++学习\课后作业\5.6 希尔排序\ConsoleApplication1.cpp(136,37): warning C4018: “<”: 有符号/无符号不匹配
+D:\a我的文件\C++学习\课后作业\5.6 希尔排序\ConsoleApplication1.cpp(175,23): warning C4018: “<”: 有符号/无符号不匹配
+  5.6 希尔排序.vcxproj -> D:\a我的文件\C++学习\课后作业\5.6 希尔排序\x64\Debug\5.6 希尔排序.exe
