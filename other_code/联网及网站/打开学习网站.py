@@ -19,7 +19,7 @@ root.title("学习网站")
 
 # 定义学习网站字典
 website_urls = {
-    "C++学习": "https://www.bilibili.com/cheese/play/ep174104",
+    "C++学习": "https://www.bilibili.com/cheese/play/ep174133",
     "韦东山嵌入式Linux": "https://www.bilibili.com/video/BV1w4411B7a4/?spm_id_from=333.999.0.0&vd_source=e97b51705159b1891c4873b3974ff702",
     "GitHub": "https://github.com/",
     "Git学习": "https://www.bilibili.com/video/BV1HM411377j?p=16&spm_id_from=pageDriver&vd_source=e97b51705159b1891c4873b3974ff702",

@@ -61,71 +61,81 @@ using namespace std;
 //};
 //
 ////——————————————————————
-class A {
+
+class A {		// 基类
+	friend ostream& operator <<(ostream& cout, A& a);
 public:
-	int m_a = 1;
+	int m_a;
 protected:
-	int m_b = 2;
+	int m_b;
 private:
-	int m_c = 3;	// 基类中的m_c对派生类而言只是隐藏了，但实际存在且占用空间
+	int m_c;	// 基类中的m_c对派生类而言只是隐藏了，但实际存在且占用空间
 
 public:
-	A() {
-		cout << "调用了A的构造函数。"
-			<< "\nA的this指针是：" << this
-			<< "\nA中m_a的地址是：" << &m_a
-			<< "\nA中m_b的地址是：" << &m_b
-			<< "\nA中m_c的地址是：" << &m_c << endl;
+	A() :m_a(0), m_b(0), m_c(0)
+	{
+		cout << "调用了A()默认构造函数。\n";
+	}
+	A(int a, int b, int c) :m_a(a), m_b(b), m_c(c)
+	{
+		cout << "调用了A(int a,int b,int c)构造函数。\n";
+	}
+	A(const A& a) :m_a(a.m_a + 1), m_b(a.m_b + 1), m_c(a.m_c + 1)
+	{
+		cout << "调用了A(const A& a)拷贝构造函数。\n";
 	}
 	~A() { cout << "调用了A的析构函数。\n"; }
 
-	int using_m_c() { return m_c; }
-
-	void show() {
-		cout << "m_c=" << m_c << endl;
-	}
+	void showA() { cout << "m_a=" << m_a << "，m_b=" << m_b << "，m_c=" << m_c << endl; }
 };
 
-class B :public A {
+class B :public A {		// 派生类
 public:
-	int m_d = 40;
+	int m_d;
 
-	B() {
-		cout << "调用了B的构造函数。"
-			<< "\nB的this指针是：" << this
-			<< "\nB中m_a的地址是：" << &m_a
-			<< "\nB中m_b的地址是：" << &m_b
-			<< "\nB中m_d的地址是：" << &m_d << endl;;
+	B() :m_d(0), A()	// 派生类的默认构造函数，指明用基类的默认构造函数（不指名也无所谓）
+	{
+		cout << "调用了B()默认构造函数。\n";
 	}
+	B(int a, int b, int c, int d) :A(a, b, c), m_d(d)
+	{
+		cout << "调用了B(int a,int b,int c,int d)构造函数。\n";
+	}
+	B(const A& a, int d) :A(a), m_d(d)
+	{
+		cout << "调用了B(const A& a,int d)拷贝构造函数。\n";
+	}
+
 	~B() { cout << "调用了B的析构函数。\n"; }
+
+	void showB() { cout << "m_d=" << m_d << endl; }
 };
 
-// 重载 new 和 delete 操作符，用以跟踪对象在创建和销毁时，内存的分配和释放情况
-void* operator new(size_t size) {
-	void* ptr = malloc(size);
-	cout << "申请到的内存地址：" << ptr << "，大小是：" << size << endl;
-	return ptr;
-}
-void operator delete(void* ptr) {
-	if (ptr == 0) return;	// 对空指针delete是安全的
-	free(ptr);
-	cout << "释放了内存。\n";
+ostream& operator <<(ostream& cout, A& a) {
+	cout << "m_a=" << a.m_a << "，m_b=" << a.m_b << "，m_c=" << a.m_c;
+	return cout;
 }
 
 int main()
 {
-	cout << "基类A占用的内存大小是：" << sizeof(A) << endl;
-	cout << "派生类B占用的内存大小是：" << sizeof(B) << endl;
+	B b1;	// 调用基类默认构造函数
+	b1.showA(); b1.showB();
 
-	B* b = new B;
-	delete b;
+	B b2(1, 2, 3, 4);	// 调用基类3个参数的构造函数
+	b2.showA(); b2.showB();
 
-	//———————奇技淫巧———————
-	B* p = new B;
-	*((int*)p + 2) = 99;	// 直接用指针访问基类私有成员
-	p->show();
+	A a(10, 20, 30);	// 创建基类对象
+	B b3(a, 40);		// 调用基类的拷贝构造函数
+	b3.showA(); b3.showB();
 }
 
 /*
+派生类构造函数的要点如下:
+1)创建派生类对象时，程序首先调用基类构造函数，然后再调用派生类构造函数。
+2)如果没以指定基类构造函数，将使用基类的默认构造函数。
 
+3)可以用初始化列表指明要使用的基类构造函数。
+
+4)基类构造函数负责初始化被继承的数据成员;派生类构造函数主要用于初始化新增的数据成员。
+5)派生类的构造函数总是调用一个基类构造函数，包括拷贝构造函数。
 */

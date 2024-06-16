@@ -1,0 +1,4 @@
+﻿  ConsoleApplication1.cpp
+D:\1my_files\C++\lessons\26.6 函数模板高级\ConsoleApplication1.cpp(13,41): error C3878: 语法错误:“expression”后出现意外标记“decltype”
+D:\1my_files\C++\lessons\26.6 函数模板高级\ConsoleApplication1.cpp(13,41): message : 已跳过错误恢复:“decltype ( 标识符  . . . (”
+D:\1my_files\C++\lessons\26.6 函数模板高级\ConsoleApplication1.cpp(15,1): error C1907: 无法从以前的错误中恢复；正在停止编译
