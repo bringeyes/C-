@@ -1,3 +1,0 @@
-﻿  ConsoleApplication1.cpp
-D:\a我的文件\C++学习\课后作业\二十三、随机数\ConsoleApplication1.cpp(9,15): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
-  二十三、随机数.vcxproj -> D:\a我的文件\C++学习\课后作业\二十三、随机数\x64\Debug\二十三、随机数.exe

@@ -1,3 +1,0 @@
-﻿  bucketSort.cpp
-D:\a我的文件\C++学习\课后作业\5.9 桶排序\bucketSort.cpp(96,15): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
-  5.9 桶排序.vcxproj -> D:\a我的文件\C++学习\课后作业\5.9 桶排序\x64\Debug\5.9 桶排序.exe

@@ -1,3 +1,0 @@
-﻿  ConsoleApplication1.cpp
-D:\a我的文件\C++学习\课后作业\十一、把字符串转换成整数\ConsoleApplication1.cpp(31,25): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-  十一、把字符串转换成整数.vcxproj -> D:\a我的文件\C++学习\课后作业\十一、把字符串转换成整数\x64\Debug\十一、把字符串转换成整数.exe

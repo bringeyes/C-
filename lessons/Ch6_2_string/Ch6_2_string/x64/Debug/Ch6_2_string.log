@@ -1,4 +1,0 @@
-﻿  Ch6_2_string.cpp
-D:\a我的文件\C++学习\Ch6_2_string\Ch6_2_string\Ch6_2_string.cpp(18,10): warning C4309: “=”: 截断常量值
-D:\a我的文件\C++学习\Ch6_2_string\Ch6_2_string\Ch6_2_string.cpp(33,12): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
-  Ch6_2_string.vcxproj -> D:\a我的文件\C++学习\Ch6_2_string\x64\Debug\Ch6_2_string.exe
