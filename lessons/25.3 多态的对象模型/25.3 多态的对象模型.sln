@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34916.146
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "25.3 多态的对象模型", "25.3 多态的对象模型.vcxproj", "{13DF737A-9409-4676-ABCC-C78307CE78DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13DF737A-9409-4676-ABCC-C78307CE78DE}.Debug|x64.ActiveCfg = Debug|x64
+		{13DF737A-9409-4676-ABCC-C78307CE78DE}.Debug|x64.Build.0 = Debug|x64
+		{13DF737A-9409-4676-ABCC-C78307CE78DE}.Debug|x86.ActiveCfg = Debug|Win32
+		{13DF737A-9409-4676-ABCC-C78307CE78DE}.Debug|x86.Build.0 = Debug|Win32
+		{13DF737A-9409-4676-ABCC-C78307CE78DE}.Release|x64.ActiveCfg = Release|x64
+		{13DF737A-9409-4676-ABCC-C78307CE78DE}.Release|x64.Build.0 = Release|x64
+		{13DF737A-9409-4676-ABCC-C78307CE78DE}.Release|x86.ActiveCfg = Release|Win32
+		{13DF737A-9409-4676-ABCC-C78307CE78DE}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C5D8D590-0B52-496F-905E-235F6379EB77}
+	EndGlobalSection
+EndGlobal

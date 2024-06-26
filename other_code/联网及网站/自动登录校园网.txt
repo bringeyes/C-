@@ -1,0 +1,3 @@
+@echo off
+chcp 65001 > nul
+start /B D:\anaconda3\pythonw.exe "D:\a我的文件\任务计划程序\联网及网站\自动登录校园网.py"
