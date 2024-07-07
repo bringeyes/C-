@@ -18,10 +18,10 @@ public:
 	}
 };
 
-ostream& operator<< (ostream& cout, const CGirl& g)		// 隐含了第一个参数：对象本身
+ostream& operator<< (ostream& c1, const CGirl& g)		// 隐含了第一个参数：对象本身
 {
 	cout << "年龄：" << g.m_age << "，编号：" << g.m_bh;
-	return cout;
+	return c1;
 }
 
 void show(string str) {
