@@ -38,7 +38,7 @@ void test02() {
 	try {
 		cout << array_index(arr, 10, 6) << endl;
 		// cout << array_index(arr, 10, -1) << endl;
-		cout << array_index(arr, 10, 10) << endl;
+		cout << array_index(arr, 10, 10) << endl;	// 报错overflow
 	}
 	catch (index e) {
 		if (e == underflow) cout << "下标过小" << endl;

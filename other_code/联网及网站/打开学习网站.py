@@ -21,7 +21,7 @@ root.title("学习网站")
 website_urls = {
     "C++学习": "https://www.bilibili.com/cheese/play/ep174133",
     "01大学C++基础": "https://appprle8wl84197.pc.xiaoe-tech.com/p/t_pc/course_pc_detail/video/v_6397141ae4b06159f71e570b?product_id=p_634d4c64e4b0a51fef2a2803&content_app_id=&type=8&parent_pro_id=p_666e463be4b0694c98293ce7",
-    "01大学数据结构": "https://appprle8wl84197.pc.xiaoe-tech.com/p/t_pc/course_pc_detail/video/v_659ea63fe4b0d3a962aae6a1?product_id=p_6587cd5fe4b04c10094171c1&content_app_id=&type=6",
+    "01大学数据结构": "https://appprle8wl84197.pc.xiaoe-tech.com/p/t_pc/course_pc_detail/column/p_6587cd5fe4b04c10094171c1",
     "韦东山嵌入式Linux": "https://www.bilibili.com/video/BV1w4411B7a4/?spm_id_from=333.999.0.0&vd_source=e97b51705159b1891c4873b3974ff702",
     "GitHub": "https://github.com/",
     "Git学习": "https://www.bilibili.com/video/BV1HM411377j?p=16&spm_id_from=pageDriver&vd_source=e97b51705159b1891c4873b3974ff702",

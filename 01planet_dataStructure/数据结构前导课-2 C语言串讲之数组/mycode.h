@@ -11,3 +11,8 @@ void test01();
 void test02();
 
 void test03();
+
+void test04(int a[][10]);
+void test04(int(*a)[10]);
+
+void test05();
