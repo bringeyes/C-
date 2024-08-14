@@ -69,4 +69,22 @@ void test02_time() {
 */
 
 void test03() {
+	cList l = init_cList();
+
+	// 测试头插法和尾插法
+	for (int i = 0; i < 10; i++) {
+		head_insert(l, i);
+	}
+	for (int i = 0; i < 5; i++) {
+		tail_insert(l, i * 10);
+	}
+	printList(l);
+
+	// 测试结点删除
+	delete_node(l, 10);
+	printList(l);
+
+	// 测试改结点值
+	update_node(l, 20, 99);
+	printList(l);
 }

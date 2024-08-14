@@ -19,6 +19,10 @@ root.title("学习网站")
 
 # 定义学习网站字典
 website_urls = {
+    "正点原子STM32教学":"https://www.bilibili.com/video/BV1Lx411Z7Qa?p=14&vd_source=e97b51705159b1891c4873b3974ff702",
+    "(新)正点原子STM32教学":"https://www.bilibili.com/video/BV1bv4y1R7dp?p=137&vd_source=e97b51705159b1891c4873b3974ff702",
+    "COMSOL教学":"https://www.bilibili.com/video/BV1K44y1v7Vx/",
+    "SolidWorks教学":"https://www.bilibili.com/video/BV1Db421B7pb/",
     "C++学习": "https://www.bilibili.com/cheese/play/ep174133",
     "01大学C++基础": "https://appprle8wl84197.pc.xiaoe-tech.com/p/t_pc/course_pc_detail/video/v_6397141ae4b06159f71e570b?product_id=p_634d4c64e4b0a51fef2a2803&content_app_id=&type=8&parent_pro_id=p_666e463be4b0694c98293ce7",
     "01大学数据结构": "https://appprle8wl84197.pc.xiaoe-tech.com/p/t_pc/course_pc_detail/column/p_6587cd5fe4b04c10094171c1",
